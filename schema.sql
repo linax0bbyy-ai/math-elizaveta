@@ -17,9 +17,11 @@ CREATE TABLE site_settings (
 );
 
 INSERT INTO site_settings (key, value) VALUES
-    ('tutor_name',        'Елизавета'),
+    ('tutor_name',        'Елизавета Николаевна Кожевникова'),
+    ('tutor_short',       'Е. Н. Кожевникова'),
     ('subject',           'Математика'),
-    ('format',            'Онлайн, в основном через Zoom'),
+    ('format',            'Онлайн: Zoom или MAX'),
+    ('trial_lesson_minutes', '30'),   -- бесплатное пробное занятие
     ('phone',             '+79259263450'),
     ('phone_view',        '+7 925 926-34-50'),
     ('telegram_username', ''),   -- впишите свой ник без @
