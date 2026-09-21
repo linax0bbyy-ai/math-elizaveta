@@ -20,6 +20,7 @@ INSERT INTO site_settings (key, value) VALUES
     ('tutor_name',        'Елизавета Николаевна Кожевникова'),
     ('tutor_short',       'Е. Н. Кожевникова'),
     ('subject',           'Математика'),
+    ('experience_years',  '4+'),   -- опыт преподавания: больше 4 лет
     ('format',            'Онлайн: Zoom или MAX'),
     ('trial_lesson_minutes', '30'),   -- бесплатное пробное занятие
     ('phone',             '+79259263450'),
